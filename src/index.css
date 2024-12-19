@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Dinpro';
+  src: url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: 'Dinpro', system-ui, sans-serif;
+  }
+}
